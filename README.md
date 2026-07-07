@@ -15,7 +15,7 @@ Quantis bridges fragmented info into one source of truth. By turning noise into 
 Quantis acts as an abstraction layer between raw data infrastructure and the end-user, ensuring that complex information becomes accessible without sacrificing depth or security.
 
 ## Getting Started
-*(Add instructions on how to set up the environment, install dependencies, and run the project locally.)*
+*End of 2027*
 
 ## Roadmap
 - [ ] Core Data Integration Engine
