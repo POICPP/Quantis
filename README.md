@@ -27,7 +27,9 @@ Quantis acts as an abstraction layer between raw data infrastructure and the end
 We welcome contributions! Please open an issue or submit a pull request if you have suggestions or improvements.
 
 ## License
-This project is licensed under the MIT License.
+© 2026 Max Grauel. All rights reserved. 
+Unauthorized copying of this file, via any medium, is strictly prohibited. Proprietary and confidential.
+
 
 ---
 ### Development Status
