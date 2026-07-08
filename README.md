@@ -2,6 +2,8 @@
 
 ## Index.html is only front layer. Bacck end is beeing developed and uploaded end of 2027
 
+Look at the UI: https://poicpp.github.io/Quantis/
+
 **Quantis: The ultimate OS for complex data.** 
 
 Quantis bridges fragmented info into one source of truth. By turning noise into intelligence, Quantis empowers teams to make high-stakes decisions with absolute precision, total security, and unprecedented speed. Your data, unified and evolved for the future of decision-making. Experience the power of clarity via Quantis.
@@ -32,6 +34,4 @@ Unauthorized copying of this file, via any medium, is strictly prohibited. Propr
 
 ---
 ### Development Status
-**Status:** 🏗️ Planning Phase (Planing what everything should do)
-
-## Lock at the Start Screen (No Log In yet)
+**Status:** 🏗️ UI Planing (Finished UI, now the backend)
