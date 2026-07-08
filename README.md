@@ -1,5 +1,7 @@
 # Quantis
 
+## Index.html is only front layer. Bacck end is beeing developed and uploaded end of 2027
+
 **Quantis: The ultimate OS for complex data.** 
 
 Quantis bridges fragmented info into one source of truth. By turning noise into intelligence, Quantis empowers teams to make high-stakes decisions with absolute precision, total security, and unprecedented speed. Your data, unified and evolved for the future of decision-making. Experience the power of clarity via Quantis.
@@ -22,9 +24,6 @@ Quantis acts as an abstraction layer between raw data infrastructure and the end
 - [ ] Advanced Visual Analytics Dashboard
 - [ ] AI-Driven Predictive Modeling
 - [ ] Enterprise Security & Audit Logging
-
-## Contributing
-We welcome contributions! Please open an issue or submit a pull request if you have suggestions or improvements.
 
 ## License
 © 2026 Max Grauel. All rights reserved. 
