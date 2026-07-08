@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantis OS | The Ultimate OS for Complex Data</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <!-- Load a technical, sharp font like JetBrains Mono or keep Inter for clean look -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    
+    <!-- Sidebar / Nav -->
+    <aside class="sidebar">
+      <div class="brand">
+        <i class="ph-fill ph-hexagon brand-icon"></i>
+        <span class="brand-name">QUANTIS</span>
+      </div>
+      <nav class="nav-menu">
+        <a href="#" class="nav-item active"><i class="ph ph-squares-four"></i> Dashboard</a>
+        <a href="templates/profiles.html" class="nav-item"><i class="ph ph-users"></i> Profiles</a>
+        <a href="templates/ai.html" class="nav-item"><i class="ph ph-hexagon"></i> Quantis AI</a>
+        <a href="templates/insights.html" class="nav-item"><i class="ph ph-chart-polar"></i> Analytics</a>
+        <a href="templates/security.html" class="nav-item"><i class="ph ph-shield-check"></i> Security Log</a>
+      </nav>
+    </aside>
+
+    <!-- Main View -->
+    <main class="main-view">
+      <header class="top-bar">
+        <div class="search-bar">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" placeholder="Query data ecosystem...">
+        </div>
+        <div class="system-status">
+          <span class="status-indicator" style="--indicator-color: #ffc400;"></span>
+          <span>System in Developement</span>
+        </div>
+      </header>
+
+      <div class="content-wrapper">
+        <div class="hero-header">
+          <h1>Welcome to Quantis</h1>
+          <p>The ultimate OS for complex data. Total security, absolute precision.</p>
+        </div>
+
+        <!-- Ingestion Zone -->
+        <section class="ingestion-section">
+          <div class="dropzone" id="dropzone">
+            <div class="dropzone-content">
+              <div class="icon-ring">
+                <i class="ph ph-upload-simple upload-icon"></i>
+              </div>
+              <h2>Data Ingestion Node</h2>
+              <p>Drag & drop encrypted packets or raw data files here. We only work with pdf and cvs data.</p>
+              <button class="action-btn primary-btn" id="upload-btn">Initialize Upload</button>
+              <input type="file" id="file-input" hidden multiple>
+            </div>
+            <div class="upload-progress-container" id="upload-progress-container" style="display: none;">
+              <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+              <span id="progress-text">Processing data streams...</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Core Capabilities Grid -->
+        <section class="capabilities-grid">
+          <a href="templates/profiles.html" class="module-card">
+            <div class="module-icon"><i class="ph ph-users-four"></i></div>
+            <div class="module-info">
+              <h3>Analyzed Profiles</h3>
+              <p>AI-generated profiles from your uploaded data</p>
+            </div>
+          </a>
+
+          <a href="templates/ai.html" class="module-card primary-module">
+            <div class="module-icon"><i class="ph-fill ph-hexagon"></i></div>
+            <div class="module-info">
+              <h3>Ask Quantis AI</h3>
+              <p>High-speed decision intelligence</p>
+            </div>
+          </a>
+
+          <a href="templates/insights.html" class="module-card">
+            <div class="module-icon"><i class="ph ph-activity"></i></div>
+            <div class="module-info">
+              <h3>Data Analytics</h3>
+              <p>Real-time analytics</p>
+            </div>
+          </a>
+        </section>
+
+        <!-- Functional Local File System -->
+        <section class="file-system-section">
+          <div class="section-header">
+            <h2>Local Data Repository</h2>
+            <div class="header-actions">
+              <span class="storage-info" id="storage-info">0 files loaded</span>
+              <button class="action-btn text-btn" id="clear-all-btn">Clear Local Cache</button>
+            </div>
+          </div>
+          
+          <div class="files-grid" id="files-grid">
+            <!-- Files will be injected here by script.js -->
+            <div class="empty-state" id="empty-state">
+              <i class="ph ph-hard-drives"></i>
+              <p>Local repository empty. Ingest data to begin.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
