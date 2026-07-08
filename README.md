@@ -33,3 +33,5 @@ Unauthorized copying of this file, via any medium, is strictly prohibited. Propr
 ---
 ### Development Status
 **Status:** 🏗️ Planning Phase (Planing what everything should do)
+
+## Lock at the Start Screen (No Log In yet)
