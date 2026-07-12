@@ -28,7 +28,7 @@ Quantis acts as an abstraction layer between raw data infrastructure and the end
 - [ ] Enterprise Security & Audit Logging
 
 ## License
-© 2026 Max Grauel. All rights reserved. 
+© 2026 POICPP | Max. All rights reserved. 
 Unauthorized copying of this file, via any medium, is strictly prohibited. Proprietary and confidential.
 
 
